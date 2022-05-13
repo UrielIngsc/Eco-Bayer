@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco-Bayer</title>
+
+    <!-- Estilos de las fuentes: -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styeSheet.css">
+    <link rel="stylesheet" href="./CSS/tablet.css" media="(min-width: 930px)">
+</head>
+
+<body>
+
+    <header>
+        <!-- <img src="./assets/img/logo.svg" alt=""> -->
+        <div class="header--title-container">
+            <h1>Eco-Bayer</h1>
+            <p>Proyecto de Bayer orientado a la recoleccion y reciclado de llantas de cualquier uso, con el fin de reducir su impacto medio-ambiental</p>
+            <a href="" class="header--button" target="_blank">Conoce mas sobre esta propuesta</a>
+        </div>
+    </header>
+
+   <main>
+        <section class="main-exchange-container">
+            <div class="backgroundImg">
+
+            </div>
+            <div class="main-exchange-container--title">
+                <h2>¿Por qué nace eco-bayer?</h2>
+                <p>Nace de la problematica de las empresas con el caucho que es empleado en las llantas de los servicios de tranporte de personal y 
+                    materias primas, ya que al año estas empresas desechan varias toneladas del caucho de las llantas cuando estas ya han terminado
+                    su vida util o han tenido algun percanse.
+                    
+                </p>
+            </div>
+            <section class="main-tables-container">
+
+                <div class="main-currency-table">
+                    <div class="currency-table--section1">
+                        <h2 class="currency-table--title">
+                            ¿Por que reciclar el caucho producido?      
+                        </h2>
+                        <p>Este material es un derivado del petroleo, por lo tanto el dejarlo al aire libre o quemarlo emite contaminacion
+                            al medio ambiemte. Este material puede reutlizarse y reaplicarse de diversas maneras en varios ambitos, al hacer esto el impacto
+                            medio-ambiental se reduce considerablemente, ademas de que tambien se puede obtener una remuneracion economica
+                        </p>           
+                    </div>
+                    <div class="currency-table--section2">
+                        <h2 class="currency-table--title"> 
+                            Compromiso con la sociedad
+                        </h2>
+                        <p>Apoyo a las familias a modo de remuneracion por sus llantas inservibles
+                            Compromiso ambiental al procesar de manera correcta y limpia los residuos de neumaticos
+                            Donaciones de materia prima a asociaciones para creacion y recubriento de caucho en rampas de discapacitados
+                        </p>
+                    </div>
+                    <div class="currency-table--section3">
+                        <h2 class="currency-table--title">
+                            Servicios a la Comunidad
+                        </h2>
+                        <p>
+                            Creacion de espacios publicos deportivos y mantenimiento a via publica, mediante la donacion del producto resultante a las
+                            empresas y organisaciones correspondientes
+                        </p>
+                    </div>
+                    <div class="currency-table--section4">
+                        <h2 class="currency-table--title">
+                            Iniciativa de Bayer
+                        </h2>
+                        <p>
+                            La empresa de Bayer esta conciente de impacto que puede tener una empresa de esta magnitud pueda tener en el medio ambiemte, pero tambien
+                            estan comprometidos a invertir en posibles soluciones a este problema e incentivar a las demas empresas a que tomen tambien este 
+                            tipo de iniciativas
+                        </p>
+                    </div>
+                    
+                </div>
+                <br><br><br>
+                
+            </section>
+ 
+        </section>
+
+        <div class="form">
+            <form class="form-chido" action="">
+
+                <div class="container-form">
+                    <p style="font-size: 5vh;" class="titl">Calcula tu remuneracion</p>
+                    <label class="container-form-text">Numero de llantas</label>
+                    <input id="numeroLlantas" class="inputss" type="number" >
+                </div>
+
+                <div class="container-form">
+                    <label class="container-form-text">Tipo de llanta</label>
+                    <select class="inputss" name="" id="carType">
+                        <option value="1">Carro/Camioneta</option>
+                        <option value="2">Maquinaria/Tractor</option>
+                        <option value="3">Trailer</option>
+                    </select>
+                    <button id="button-Calcular" class="btn btn-info">Calcular</button>
+                </div>
+
+                <div class="container-ultimo">
+                    <label class="container-form-text">Aproximado remuneracion: <span id="remuneration">---</span></label>
+                </div>
+
+            </form>
+        </div>
+        
+       
+        
+    </main>
+
+    <!-- <footer>
+        <section class="left">
+            <ul>
+                <li><a href="#">Linkedin</a></li>
+                <li><a href="#">Crunchbase</a></li>
+                <li><a href="#">Hackernews</a></li>
+            </ul>
+        </section>
+
+        <section class="right">
+            <img src="./assets/img/logo-footer.svg" alt="Logo de Batatabit 2022">
+        </section>
+    </footer>  -->
+
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
